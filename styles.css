@@ -1,0 +1,71 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mood-selection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.mood-btn {
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mood-btn:hover {
+    background-color: #ccc;
+}
+
+.journal textarea {
+    width: 80%;
+    height: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.mood-history {
+    margin-top: 30px;
+}
+
+.mood-history h2 {
+    font-size: 1.5em;
+}
+
+.mood-chart {
+    margin-top: 50px;
+}
